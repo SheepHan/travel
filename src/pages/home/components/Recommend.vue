@@ -2,8 +2,8 @@
   <div>
       <div class="recommend-title">热销推荐</div>
       <ul>
-          <li class="item border-bottom" v-for="item of list" :key="item.id">           
-                  <img :src="item.imgUrl" alt="" class="item-img">             
+          <li class="item border-bottom" v-for="item of list" :key="item.id">
+                  <img :src="item.imgUrl" alt="" class="item-img">
               <div class="item-info">
                   <p class="item-title">{{item.title}}</p>
                   <p class="item-desc">{{item.desc}}</p>
@@ -17,12 +17,12 @@
 export default {
   name: 'HomeRecommend',
   props: {
-      list: Array
+    list: Array
   }
 }
 </script>
 <style lang="stylus" scoped>
-    // @import '../../src/styles/mixins.styl';
+    @import '../../../assets/styles/mixins.styl';
     .recommend-title
         margin-top .2rem
         line-height .8rem
@@ -56,4 +56,3 @@ export default {
                 border-radius .06rem
                 color #fff
 </style>
-

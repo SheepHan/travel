@@ -21,14 +21,14 @@
 export default {
   name: 'HomeHeader',
   props: {
-      city: String
+    city: String
   }
 }
 </script>
 <style lang="stylus"  scoped>
     @import '~@/assets/styles/varibles.styl'
     .header
-        display flex
+        display: flex
         line-height:.86rem
         background:#00bcd4
         color:#fff
@@ -36,23 +36,23 @@ export default {
             width :0.64rem
             float:left
             .back-icon
-                text-align center
-                font-size .4rem
+                text-align: center
+                font-size: .4rem
         .header-input
             flex:1
             height:.64rem
-            line-height .64rem
-            margin-top .12rem
-            padding-left .2rem
-            background #fff
-            border-radius .1rem
+            line-height: .64rem
+            margin-top: .12rem
+            padding-left: .2rem
+            background: #fff
+            border-radius: .1rem
             color:#ccc
         .header-right
             float :right
-            width 1.24rem
+            width: 1.24rem
             color: #fff
-            text-align center
+            text-align: center
             .arrow-icon
-                margin-left -.04rem
-                font-size .24rem
+                margin-left:-.04rem
+                font-size: .24rem
 </style>

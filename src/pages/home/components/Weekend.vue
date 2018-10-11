@@ -2,11 +2,10 @@
   <div>
       <div class="recommend-title">周末去哪儿</div>
       <ul>
-          <li class="item border-bottom" v-for="item of list" :key="item.id">           
+          <li class="item border-bottom" v-for="item of list" :key="item.id">
               <div class="img-wrapper">
-                <img :src="item.imgUrl" alt="" class="item-img"> 
-              </div>   
-                              
+                <img :src="item.imgUrl" alt="" class="item-img">
+              </div>
               <div class="item-info">
                   <p class="item-title">{{item.title}}</p>
                   <p class="item-desc">{{item.desc}}</p>
@@ -19,7 +18,7 @@
 export default {
   name: 'HomeWeekend',
   props: {
-      list: Array
+    list: Array
   }
 }
 </script>
@@ -39,7 +38,7 @@ export default {
         min-width 0
         .item-title
             line-height .54rem
-            font-size .32rem   
+            font-size .32rem
         .item-desc
             line-height .4rem
             color: #cccccc
