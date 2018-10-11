@@ -18,6 +18,4 @@ export default {
         color #fff
         background red
         font-size .32rem
-        .header-back
-        
 </style>

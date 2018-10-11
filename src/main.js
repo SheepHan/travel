@@ -4,7 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
-import fastClick from 'fastClick'  // 移动端300毫秒点击延迟
+import fastClick from 'fastClick'// 移动端300毫秒点击延迟
 import './assets/styles/reset.css'
 import './assets/styles/border.css'
 import './assets/styles/iconfont.css'
