@@ -1,7 +1,6 @@
 <template>
     <div class="home">
         <home-header></home-header>
-        hello world
     </div>
 </template>
 <script>
