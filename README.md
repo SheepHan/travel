@@ -1,6 +1,6 @@
 # travel1
 
-> A Vue.js project
+> qunaerwang
 
 ## Build Setup
 

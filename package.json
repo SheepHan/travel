@@ -1,7 +1,7 @@
 {
   "name": "travel1",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "qunaerwang",
   "author": "liuwan950628 <1027968784@qq.com>",
   "private": true,
   "scripts": {
@@ -11,8 +11,6 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "stylus": "^0.54.5",
-    "stylus-loader": "^3.0.2",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
