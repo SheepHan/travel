@@ -22,8 +22,7 @@ export default {
       swiperOption: {
         notNextTick: true,
         pagination: '.swiper-pagination',
-        autoplay: 1000,
-        // speed: 300,
+        // autoplay: 1000,
         loop: true
       },
       swiperList: [{
