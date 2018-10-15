@@ -24,7 +24,8 @@ export default {
       swiperOptions: {
         notNextTick: true,
         pagination: '.swiper-pagination',
-        loop: false
+        loop: false,
+        autoplay: false
       }
     }
   },
