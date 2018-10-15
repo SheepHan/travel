@@ -1,8 +1,8 @@
 <template>
   <div class="wrapper">
-    <swiper :options="swiperOption">
+    <swiper :options="swiperOption" v-if="list.length">
     <!-- slides -->
-    <swiper-slide v-for="item of swiperList" :key="item.id">
+    <swiper-slide v-for="item of list" :key="item.id">
         <img :src="item.imgUrl" class="swiper-img">
     </swiper-slide>
     <!-- Optional controls -->
@@ -24,15 +24,7 @@ export default {
         pagination: '.swiper-pagination',
         // autoplay: 1000,
         loop: true
-      },
-      swiperList: [{
-        id: '0001',
-        imgUrl: 'http://img1.qunarzz.com/piao/fusion/1809/82/c94c9a77de17f902.jpg_750x200_a8419488.jpg'
-      },
-      {
-        id: '0002',
-        imgUrl: 'http://img1.qunarzz.com/piao/fusion/1809/86/deb33800de224c02.jpg_750x200_74fb795e.jpg'
-      }]
+      }
     }
   },
   computed: {

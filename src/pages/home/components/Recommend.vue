@@ -2,7 +2,7 @@
     <div>
         <div class="recommend-title">热销推荐</div>
         <ul>
-            <li class="item" v-for="item of recommendList" :key="item.id">
+            <li class="item" v-for="item of list" :key="item.id">
                 <img :src="item.imgUrl" class="item-img">
                 <div class="item-info">
                     <p class="item-title">{{item.title}}</p>
@@ -16,27 +16,8 @@
 <script>
 export default {
   name: 'HomeRecommend',
-  data () {
-    return {
-      recommendList: [{
-        id: '0001',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1411/b6/662fc49d1d26a5a7775cf6b7f8b4ecec.water.jpg_200x200_7dec115f.jpg',
-        title: '杭州野生动物世界',
-        desc: '杭州野生动物世界手机导游(不含门票)手绘地图、语音讲解、路线推荐'
-      },
-      {
-        id: '0002',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1411/b6/662fc49d1d26a5a7775cf6b7f8b4ecec.water.jpg_200x200_7dec115f.jpg',
-        title: '杭州野生动物世界',
-        desc: '杭州野生动物世界手机导游(不含门票)手绘地图、语音讲解、路线推荐'
-      },
-      {
-        id: '0003',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1411/b6/662fc49d1d26a5a7775cf6b7f8b4ecec.water.jpg_200x200_7dec115f.jpg',
-        title: '杭州野生动物世界',
-        desc: '杭州野生动物世界手机导游(不含门票)手绘地图、语音讲解、路线推荐'
-      }]
-    }
+  props: {
+    list: Array
   }
 }
 </script>
